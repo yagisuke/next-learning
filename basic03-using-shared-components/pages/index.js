@@ -1,10 +1,7 @@
-import Header from '../comps/Header'
+import Layout from '../components/MyLayout.js'
 
-const Index = () => (
-  <div>
-    <Header />
-    <p>Hello Next.js</p>
-  </div>
+export default () => (
+    <Layout>
+       <p>Hello Next.js</p>
+    </Layout>
 )
-
-export default Index
